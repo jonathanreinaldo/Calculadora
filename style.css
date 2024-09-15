@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62,5% ;
+}
+
+body{
+    
+    background-image: url(./img/OIP\ 2.jpg);
+    background-size: contain;
+    background-position: center, center ;
+    background-repeat: no-repeat;
+    background-size: 1371px 1190px;
+  }  
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora{
+    width: 20.5rem;
+    display: flex;
+    height: 30rem;
+    border-radius: 0.8rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-position: center, center ;
+    background-image: url(./img/istockphoto-1495090192-612x612.jpg)
+}
+
+#pantalla{
+    width: 17.7rem;
+    height: 6rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    font-size: 4rem;
+    background-color: #3d6548;
+}
+.botones{
+    margin: 0.3rem;
+    width: 4rem;
+    height:2.8rem ;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+}
+
+ .botonesFinales{
+    margin: 0.3rem;
+    width: 4rem;
+    height:2.5rem ;
+    border-radius: 0.8rem;
+ }
+
+ .botonBack{
+    margin: 0.3rem;
+    width: 4rem;
+    height:2.5rem ;
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+ }
+
+  .botonIgual{
+    margin: 0.3rem;
+    width: 8.7rem;
+    height:2.5rem ;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    background-color: red;
+ } 
+
+ @media(max-width: 360px){
+    main{
+        height: 100vh;
+    }
+    }
